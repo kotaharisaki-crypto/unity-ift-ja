@@ -1,0 +1,977 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8999108370967053234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: "\u624B\u9806"
+  Text:
+    m_Untranslated: "1. <b>Assets</b> > <b>3DModels</b>\u3067\u3001\u65B0\u3057\u304F\u30A4\u30F3\u30DD\u30FC\u30C8\u3055\u308C\u305F<b>Moto
+      Prefab</b>\uFF08\u9752\u3044\u30AD\u30E5\u30FC\u30D6\u306E\u30A2\u30A4\u30B3\u30F3\u306E\u3082\u306E\uFF09\u3092\u898B\u3064\u3051\u307E\u3059\u3002\n\n2.
+      Prefab\u3092<b>Hierarchy\u30A6\u30A3\u30F3\u30C9\u30A6</b>\u306B\u30C9\u30E9\u30C3\u30B0\u3057\u3066\u3001\u30B7\u30FC\u30F3\u306B\u8FFD\u52A0\u3057\u307E\u3059\u3002\n\n3.
+      Inspector \u306E Transform \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8\u306E\u53F3\u5074\u306B\u3042\u308B
+      <b>3 \u70B9\u30EA\u30FC\u30C0\u30FC (\u22EE) \u30E1\u30CB\u30E5\u30FC</b>\u3092\u9078\u629E\u3057\u307E\u3059\u3002\n\n4.
+      <b>Reset</b>\u3092\u9078\u629E\u3057\u307E\u3059\u3002\u3053\u308C\u306B\u3088\u308A\u3001\u30E2\u30C7\u30EB\u304C\u30EF\u30FC\u30EB\u30C9\u306E\u4E2D\u5FC3\u306B\u79FB\u52D5\u3057\u307E\u3059\u3002\n\n<b>\u30A4\u30F3\u30DD\u30FC\u30C8\u6E08\u307F\u30E1\u30BF\u30C7\u30FC\u30BF\u306E\u78BA\u8A8D</b>\n\n5. <b>Hierarchy</b> \u3067\u30D7\u30EC\u30CF\u30D6\u3092\u9078\u629E\u3057\u3066\u5C55\u958B\u3057\u307E\u3059\n\n6.
+      \u3053\u306E\u30E2\u30C7\u30EB\u3092\u69CB\u6210\u3059\u308B\u5B50\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306E1\u3064\u3092\u9078\u629E\u3057\u3066\u3001<b>Inspector</b>\u3092\u78BA\u8A8D\u3057\u307E\u3059\u3002\n\n7.
+      \u30E2\u30C7\u30EB\u306B\u30A2\u30BF\u30C3\u30C1\u3055\u308C\u305F <b>names</b>\u3001<b>IDs</b>\u3001<b>properties</b>
+      \u306A\u3069\u306E\u30E1\u30BF\u30C7\u30FC\u30BF\u30D5\u30A3\u30FC\u30EB\u30C9\u304C\u8868\u793A\u3055\u308C\u307E\u3059\u3002"
+  m_CriteriaCompletion: 0
+  m_Criteria:
+    m_Items: []
+--- !u!114 &-8304434034607338866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "\u30E2\u30C7\u30EB\u304C\u30B7\u30FC\u30F3\u306B\u8868\u793A\u3055\u308C\u3001\u81EA\u52D5\u5316\u3001\u30AB\u30C6\u30B4\u30EA\u5316\u3001\u307E\u305F\u306F\u30B9\u30AF\u30EA\u30D7\u30C8\u30EF\u30FC\u30AF\u30D5\u30ED\u30FC\u3092\u30B5\u30DD\u30FC\u30C8\u3067\u304D\u308B\u30E1\u30BF\u30C7\u30FC\u30BF\u306B\u30A2\u30AF\u30BB\u30B9\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308A\u307E\u3057\u305F\u3002\n\n<b>\u5B8C\u4E86\u30DC\u30BF\u30F3</b>\u3092\u9078\u629E\u3057\u3066\u3001\u6B21\u306E\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u306B\u9032\u307F\u307E\u3059\u3002
+      \n\n<b>\u6CE8</b> - \u30B7\u30FC\u30F3\u3092\u4FDD\u5B58\u3059\u308B\u5FC5\u8981\u306F\u3042\u308A\u307E\u305B\u3093\u3002"
+--- !u!114 &-8298202411041563528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 1
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 32900000, guid: 03b2530c453eb8346abdf4ac52950351, type: 3}
+    m_Url: 
+    m_AutoStart: 1
+    m_Loop: 1
+--- !u!114 &-6036760941712092555
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 1
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 32900000, guid: c7b512d4805755441b3e0c5eec59c4b1, type: 3}
+    m_Url: 
+    m_AutoStart: 1
+    m_Loop: 1
+--- !u!114 &-5272922801036561969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 3_Add_the_Imported_Prefab
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 3
+  Title:
+    m_Untranslated: "\u30A4\u30F3\u30DD\u30FC\u30C8\u3057\u305FPrefab\u306E\u8FFD\u52A0"
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -8298202411041563528}
+  - {fileID: 7648402094977730683}
+  - {fileID: -8999108370967053234}
+  - {fileID: -8304434034607338866}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: "\u6B21\u3078"
+  DoneButton:
+    m_Untranslated: "\u5B8C\u4E86"
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &-5011438747360763380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 2_Adjust_Import_Settings
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 2
+  Title:
+    m_Untranslated: "\u30A4\u30F3\u30DD\u30FC\u30C8\u8A2D\u5B9A\u306E\u8ABF\u6574"
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -6036760941712092555}
+  - {fileID: -3094128253001656144}
+  - {fileID: -1469841882045615844}
+  - {fileID: 5203793537826704961}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: "\u6B21\u3078"
+  DoneButton:
+    m_Untranslated: "\u5B8C\u4E86"
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &-4971805556136534861
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "Asset Transformer Toolkit\u306E\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u304C\u6210\u529F\u3057\u307E\u3057\u305F\u3002CAD\u30E2\u30C7\u30EB\u3092\u30A4\u30F3\u30DD\u30FC\u30C8\u3059\u308B\u6E96\u5099\u304C\u6574\u3044\u307E\u3057\u305F\u3002"
+--- !u!114 &-4347446663685296468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 1
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 32900000, guid: 0d68dc5c639815a4fb30ed82c67ad2e1, type: 3}
+    m_Url: 
+    m_AutoStart: 1
+    m_Loop: 1
+--- !u!114 &-3233564692430639827
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ea12e4d8acee04f89d507142d73ffd, type: 3}
+  m_Name: PackageInstalledCriterion
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.PackageInstalledCriterion
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  isTesting: 0
+  m_PackageName: com.unity.industry.toolkit
+  m_OfflineMode: 0
+  m_IncludeIndirectDependencies: 0
+--- !u!114 &-3094128253001656144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 1
+    m_UnmaskedViews:
+    - m_SelectorType: 1
+      m_ViewType:
+        m_TypeName: 
+      m_OpenAndFocus: 1
+      m_EditorWindowType:
+        m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_AlternateEditorWindowTypes:
+        m_Items: []
+      m_MaskType: 0
+      m_MaskSizeModifier: 0
+      m_UnmaskedControls: []
+    - m_SelectorType: 1
+      m_ViewType:
+        m_TypeName: 
+      m_OpenAndFocus: 1
+      m_EditorWindowType:
+        m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_AlternateEditorWindowTypes:
+        m_Items: []
+      m_MaskType: 0
+      m_MaskSizeModifier: 0
+      m_UnmaskedControls: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "\u30D5\u30EB\u30E2\u30C7\u30EB\u3092\u30A4\u30F3\u30DD\u30FC\u30C8\u3059\u308B\u524D\u306B\u3001\u30A4\u30F3\u30DD\u30FC\u30C8\u8A2D\u5B9A\u3092\u69CB\u6210\u3059\u308B\u3053\u3068\u304C\u91CD\u8981\u3067\u3059\u3002\u3053\u308C\u3089\u306F\u3001\u30B8\u30AA\u30E1\u30C8\u30EA\u3001\u30E1\u30BF\u30C7\u30FC\u30BF\u3001\u304A\u3088\u3073\u30B9\u30B1\u30FC\u30EB\u304C\u3069\u306E\u3088\u3046\u306B\u51E6\u7406\u3055\u308C\u308B\u304B\u306B\u5F71\u97FF\u3057\u307E\u3059\u3002\n\n<b>\u91CD\u8981:</b>
+      \u6B63\u3057\u3044\u30E6\u30CB\u30C3\u30C8\u30B9\u30B1\u30FC\u30EA\u30F3\u30B0\u306B\u3088\u308A\u3001CAD\u30E2\u30C7\u30EB\u304CUnity\u306E\u30EF\u30FC\u30EB\u30C9\u7A7A\u9593\u3067\u6B63\u3057\u3044\u30B5\u30A4\u30BA\u3067\u8868\u793A\u3055\u308C\u307E\u3059\u3002"
+--- !u!114 &-2709400122967607186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: 
+--- !u!114 &-1741144204907423468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: "\u624B\u9806"
+  Text:
+    m_Untranslated: "1. <b>Unity Asset Transformer Toolbar</b>\u3067\u3001<b>Import
+      Model</b>\u30DC\u30BF\u30F3\u3092\u9078\u629E\u3057\u307E\u3059\u3002\n\n2.
+      \u3053\u306E\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u3067\u4F7F\u7528\u3059\u308BCAD\u30D5\u30A1\u30A4\u30EB\u3092\u7528\u610F\u3057\u3066\u3044\u307E\u3059\u3002<b>\u30D5\u30A1\u30A4\u30EB\u30D6\u30E9\u30A6\u30B6</b>\u3067\u3001<b><\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\u30D5\u30A9\u30EB\u30C0></b>
+      > <b>Assets</b> > <b>CADModel</b> > <b>Robot</b>\u306B\u79FB\u52D5\u3057\u3001<b>moto.SLDASM</b>\u3092\u9078\u629E\u3057\u3066<b>Open</b>\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u307E\u3059\u3002\n\n3.
+      <b>Inspector</b>\u30A6\u30A3\u30F3\u30C9\u30A6\u3067\u3001<b>Import</b>\u3092\u9078\u629E\u3057\u307E\u3059\u3002"
+  m_CriteriaCompletion: 0
+  m_Criteria:
+    m_Items: []
+--- !u!114 &-1613705572162522722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "<b>\u6CE8</b>: \u30A4\u30F3\u30DD\u30FC\u30C8\u5F8C\u3001\u30DC\u30BF\u30F3\u306F
+      <b>Re-Import</b> \u306B\u5909\u308F\u308A\u307E\u3059\u3002\n\nImport \u3092\u9078\u629E\u3059\u308B\u3068\u3001Unity
+      \u306F\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\u5185\u306B\u65B0\u3057\u3044\u30A4\u30F3\u30DD\u30FC\u30C8
+      <b>ScriptableObject</b> \u3092\u4F5C\u6210\u3057\u307E\u3059\u3002\u3053\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u30A4\u30F3\u30DD\u30FC\u30C8\u8A2D\u5B9A\u3092\u4FDD\u5B58\u3057\u3001\u4E00\u8CAB\u3057\u305F\u518D\u30A4\u30F3\u30DD\u30FC\u30C8\u3092\u53EF\u80FD\u306B\u3057\u307E\u3059\u3002\n\u30A4\u30F3\u30DD\u30FC\u30C8\u30D7\u30ED\u30BB\u30B9\u304C\u521D\u671F\u5316\u3055\u308C\u3001<b>ScriptableObject</b>
+      \u306E\u69CB\u6210\u6E96\u5099\u304C\u6574\u3044\u307E\u3057\u305F\u3002"
+--- !u!114 &-1469841882045615844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: "\u624B\u9806"
+  Text:
+    m_Untranslated: "1. <b>Project\u30A6\u30A3\u30F3\u30C9\u30A6</b>\u3067\u3001<b>Assets</b>
+      > <b>3DModels</b>\u306B\u79FB\u52D5\u3057\u307E\u3059\u3002\n\n2. \u524D\u306E\u624B\u9806\u3067\u4F5C\u6210\u3055\u308C\u305F<b>Import
+      ScriptableObject</b>\u3092\u9078\u629E\u3057\u307E\u3059\u3002\n\n<b>\u30E2\u30C7\u30EB\u8A2D\u5B9A\u306E\u69CB\u6210</b>\n\n3. <b>Inspector \u30A6\u30A3\u30F3\u30C9\u30A6</b>\u3067\u3001
+      <b>Model</b>\u30BF\u30D6\u3092\u9078\u629E\u3057\u307E\u3059\u3002\n\n4. <b>Scale</b>\u304C<b>0.001</b>\u306B\u8A2D\u5B9A\u3055\u308C\u3066\u3044\u308B\u3053\u3068\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044\u3002Unity\u306F\u30C7\u30D5\u30A9\u30EB\u30C8\u3067\u30E1\u30FC\u30C8\u30EB\u3092\u4F7F\u7528\u3059\u308B\u305F\u3081\u3001\u3053\u306E\u8A2D\u5B9A\u306B\u3088\u308ACAD\u30E2\u30C7\u30EB\u306E\u5358\u4F4D\uFF08\u3053\u306E\u5834\u5408\u306F\u30DF\u30EA\u30E1\u30FC\u30C8\u30EB\uFF09\u3092Unity\u306E\u30E1\u30FC\u30C8\u30EB\u306B\u5909\u63DB\u3067\u304D\u307E\u3059\u3002\n\n5.
+      <b>Orientation</b>\u304C<b>Automatic</b>\u306B\u8A2D\u5B9A\u3055\u308C\u3066\u3044\u308B\u3053\u3068\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044\u3002\u3053\u308C\u306B\u3088\u308A\u3001\u30E2\u30C7\u30EB\u306FUnity\u306E\u30C7\u30D5\u30A9\u30EB\u30C8\u3067\u3042\u308B<b>Y-up</b>\u30B7\u30B9\u30C6\u30E0\u3092\u4F7F\u7528\u3059\u308B\u3088\u3046\u306B\u306A\u308A\u307E\u3059\u3002\n\n6.
+      <b>Import Metadata</b>\u304C\u6709\u52B9\u3067\u3042\u308B\u3053\u3068\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044\u3002\u30E1\u30BF\u30C7\u30FC\u30BF\u3092\u4F7F\u7528\u3059\u308B\u3068\u3001\u30E2\u30C7\u30EB\u306B\u95A2\u9023\u4ED8\u3051\u3089\u308C\u305F\u3059\u3079\u3066\u306E\u8CB4\u91CD\u306ACAD\u60C5\u5831\u3092\u5229\u7528\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308A\u307E\u3059\u3002\n\n7.
+      <b>Mesh Quality</b>\u3092<b>Maximum</b>\u306B\u8A2D\u5B9A\u3057\u307E\u3059\u3002\n\n8.
+      <b>Repair Instances</b>\u306B\u30C1\u30A7\u30C3\u30AF\u3092\u5165\u308C\u3066\u3001\u7E70\u308A\u8FD4\u3057\u306E\u30B8\u30AA\u30E1\u30C8\u30EA\u3092\u6700\u9069\u5316\u3057\u307E\u3059\u3002\n\n9.
+      Inspector\u3067<b>Re-Import</b>\u3092\u9078\u629E\u3057\u307E\u3059\u3002"
+  m_CriteriaCompletion: 0
+  m_Criteria:
+    m_Items: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
+  m_Name: Tutorial 1 - Import a CAD Model into Unity
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Tutorial
+  m_Version: 0
+  TutorialTitle:
+    m_Untranslated: "Unity\u3078\u306ECAD\u30E2\u30C7\u30EB\u306E\u30A4\u30F3\u30DD\u30FC\u30C8"
+  m_LessonId: 359b68a0-59b7-47f5-9b7f-ad369ae31386
+  m_Pages:
+    m_Items:
+    - {fileID: 6384727779976197722}
+    - {fileID: 3519376957440988215}
+    - {fileID: -5011438747360763380}
+    - {fileID: -5272922801036561969}
+  m_SceneManagementBehavior: 0
+  m_ReturnToPreviousScenes: 1
+  m_Scenes: []
+  m_DefaultSceneCameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  m_ProgressTrackingEnabled: 1
+  m_WindowLayout: {fileID: 0}
+  CompletionDialog: {fileID: 0}
+  Initiated:
+    m_PersistentCalls:
+      m_Calls: []
+  PageInitiated:
+    m_PersistentCalls:
+      m_Calls: []
+  GoingBack:
+    m_PersistentCalls:
+      m_Calls: []
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Quit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Scene: {fileID: 0}
+  m_TutorialTitle: 
+  m_FaqEntries: []
+--- !u!114 &1711920795539128268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 0
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 0}
+    m_Url: 
+    m_AutoStart: 1
+    m_Loop: 1
+--- !u!114 &2134040375535860904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews:
+    - m_SelectorType: 0
+      m_ViewType:
+        m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_OpenAndFocus: 0
+      m_EditorWindowType:
+        m_TypeName: 
+      m_AlternateEditorWindowTypes:
+        m_Items: []
+      m_MaskType: 0
+      m_MaskSizeModifier: 0
+      m_UnmaskedControls: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "Unity \u3067 CAD \u30E2\u30C7\u30EB\u306E\u4F5C\u696D\u3092\u958B\u59CB\u3059\u308B\u306B\u306F\u3001\u307E\u305A
+      Asset Transformer Toolkit \u3092\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3057\u307E\u3059\u3002\u3053\u306E\u30D1\u30C3\u30B1\u30FC\u30B8\u306F\u3001CAD
+      \u30C7\u30FC\u30BF\u306E\u30A4\u30F3\u30DD\u30FC\u30C8\u3068\u69CB\u6210\u306B\u5FC5\u8981\u306A\u30C4\u30FC\u30EB\u3092\u63D0\u4F9B\u3057\u307E\u3059\u3002"
+--- !u!114 &3519376957440988215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 1_Import_a_CAD_Model
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 1
+  Title:
+    m_Untranslated: "CAD\u30E2\u30C7\u30EB\u306E\u30A4\u30F3\u30DD\u30FC\u30C8"
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: 8394060241705376942}
+  - {fileID: 7737582888052309926}
+  - {fileID: -1741144204907423468}
+  - {fileID: -1613705572162522722}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: "\u6B21\u3078"
+  DoneButton:
+    m_Untranslated: "\u5B8C\u4E86"
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &5203793537826704961
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "<b>\u6CE8</b>: \u30A4\u30F3\u30DD\u30FC\u30C8\u5F8C\u3001\u30DC\u30BF\u30F3\u306F
+      <b>Re-Import</b> \u306B\u5909\u308F\u308A\u307E\u3059\u3002\n\nCAD \u30E2\u30C7\u30EB\u306E\u69CB\u6210\u3068
+      Unity \u3078\u306E\u30A4\u30F3\u30DD\u30FC\u30C8\u304C\u5B8C\u4E86\u3057\u307E\u3057\u305F\u3002\u9AD8\u54C1\u8CEA\u306A\u30B8\u30AA\u30E1\u30C8\u30EA\u3068\u30E1\u30BF\u30C7\u30FC\u30BF\u304C\u4FDD\u6301\u3055\u308C\u305F\u72B6\u614B\u3067\u6700\u9069\u5316\u3055\u308C\u3066\u3044\u307E\u3059\u3002\n\n\u3055\u307E\u3056\u307E\u306A\u30A4\u30F3\u30DD\u30FC\u30C8\u8A2D\u5B9A\u306E\u8A73\u7D30\u306B\u3064\u3044\u3066\u306F\u3001ATT
+      \u306E <a href=\"https://docs.unity3d.com/Packages/com.unity.industry.toolkit@3.2/manual/import-model-parameters.html\">\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8</a>
+      \u3092\u53C2\u7167\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+--- !u!114 &5772416178220282353
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 1
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 32900000, guid: 54b09b4f5dee8a84b8b75f9b7b7201d8, type: 3}
+    m_Url: 
+    m_AutoStart: 1
+    m_Loop: 1
+--- !u!114 &6384727779976197722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 0_Install_the_Asset_Transformer_Toolkit
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 0
+  Title:
+    m_Untranslated: "Asset Transformer Toolkit\u306E\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB"
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -4347446663685296468}
+  - {fileID: 2134040375535860904}
+  - {fileID: 7027292460917466033}
+  - {fileID: 5772416178220282353}
+  - {fileID: -4971805556136534861}
+  - {fileID: 1711920795539128268}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: "\u6B21\u3078"
+  DoneButton:
+    m_Untranslated: "\u5B8C\u4E86"
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &6834837778908744858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 1
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 1
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 32900000, guid: 03b2530c453eb8346abdf4ac52950351, type: 3}
+    m_Url: 
+    m_AutoStart: 1
+    m_Loop: 1
+--- !u!114 &7027292460917466033
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: "\u624B\u9806"
+  Text:
+    m_Untranslated: "1. <b>Window</b> > <b>Package Management</b> > <b>Package Manager</b>
+      \u304B\u3089 Package Manager \u3092\u958B\u304D\u307E\u3059\u3002\n\n<b>\u6CE8:</b>
+      <b>Asset Transformer Toolkit</b> \u306B\u306F Unity Industry \u30E9\u30A4\u30BB\u30F3\u30B9\u304C\u5FC5\u8981\u3067\u3059\u3002\u30E9\u30A4\u30BB\u30F3\u30B9\u304C\u306A\u3044\u5834\u5408\u3001\u30D1\u30C3\u30B1\u30FC\u30B8\u306F\u8868\u793A\u3055\u308C\u307E\u305B\u3093\u3002\n\n2.
+      \u5DE6\u4E0A\u306E\u30C9\u30ED\u30C3\u30D7\u30C0\u30A6\u30F3\u3067\u3001<b>Packages
+      location</b> \u3092 <b>Unity Registry</b> \u306B\u5207\u308A\u66FF\u3048\u307E\u3059\u3002\n\n3.
+      <b>Asset Transformer Toolkit</b> \u3092\u691C\u7D22\u3057\u307E\u3059\u3002\n\n4.
+      \u30D1\u30C3\u30B1\u30FC\u30B8\u3092\u9078\u629E\u3057\u3001<b>Install</b>
+      \u3092\u9078\u629E\u3057\u307E\u3059\u3002\n\n5. Unity \u304C\u30D1\u30C3\u30B1\u30FC\u30B8\u3068\u305D\u306E\u4F9D\u5B58\u95A2\u4FC2\u306E\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3092\u5B8C\u4E86\u3059\u308B\u307E\u3067\u5F85\u3061\u307E\u3059\u3002\n\n6.
+      <b>Package Manager</b> \u30A6\u30A3\u30F3\u30C9\u30A6\u3092\u9589\u3058\u307E\u3059\u3002\n\n7.
+      Unity \u30A8\u30C7\u30A3\u30BF\u30FC\u306B\u65B0\u3057\u3044 <b>Asset Transformer</b>
+      \u30E1\u30CB\u30E5\u30FC\u307E\u305F\u306F\u30C4\u30FC\u30EB\u30D0\u30FC\u304C\u8868\u793A\u3055\u308C\u3066\u3044\u308B\u3053\u3068\u3092\u78BA\u8A8D\u3057\u307E\u3059\u3002\n\n<b>\u6CE8</b>:
+      \u30C4\u30FC\u30EB\u30D0\u30FC\u304C\u8868\u793A\u3055\u308C\u306A\u3044\u5834\u5408\u306F\u3001<b>Scene
+      \u30A6\u30A3\u30F3\u30C9\u30A6</b>\u306E\u53F3\u4E0A\u306B\u3042\u308B <b>3
+      \u70B9\u30EA\u30FC\u30C0\u30FC (\u22EE) \u30E1\u30CB\u30E5\u30FC</b>\u3092\u9078\u629E\u3057\u3001<b>Overlays
+      > Overlay \u30E1\u30CB\u30E5\u30FC</b>\u3092\u9078\u629E\u3057\u307E\u3059\u3002\u3053\u306E\u30E1\u30CB\u30E5\u30FC\u3067\u3001<b>Custom</b>
+      > <b>Asset Transformer Toolbox</b> \u306E\u4E0B\u306E\u3059\u3079\u3066\u306E\u9805\u76EE\u304C\u6709\u52B9\u306B\u306A\u3063\u3066\u3044\u308B\u3053\u3068\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  m_CriteriaCompletion: 1
+  m_Criteria:
+    m_Items:
+    - Type:
+        m_TypeName: Unity.Tutorials.Editor.PackageInstalledCriterion, Unity.Tutorials.Editor,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Criterion: {fileID: -3233564692430639827}
+--- !u!114 &7648402094977730683
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 1
+    m_UnmaskedViews:
+    - m_SelectorType: 1
+      m_ViewType:
+        m_TypeName: 
+      m_OpenAndFocus: 1
+      m_EditorWindowType:
+        m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_AlternateEditorWindowTypes:
+        m_Items: []
+      m_MaskType: 0
+      m_MaskSizeModifier: 0
+      m_UnmaskedControls: []
+    - m_SelectorType: 1
+      m_ViewType:
+        m_TypeName: 
+      m_OpenAndFocus: 1
+      m_EditorWindowType:
+        m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_AlternateEditorWindowTypes:
+        m_Items: []
+      m_MaskType: 0
+      m_MaskSizeModifier: 0
+      m_UnmaskedControls: []
+    - m_SelectorType: 1
+      m_ViewType:
+        m_TypeName: 
+      m_OpenAndFocus: 1
+      m_EditorWindowType:
+        m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_AlternateEditorWindowTypes:
+        m_Items: []
+      m_MaskType: 0
+      m_MaskSizeModifier: 0
+      m_UnmaskedControls: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "\u30A4\u30F3\u30DD\u30FC\u30C8\u3055\u308C\u305F CAD \u30E2\u30C7\u30EB\u306F\u3001<b>Project
+      \u30A6\u30A3\u30F3\u30C9\u30A6</b>\u306B <b>Prefab</b> \u3068\u3057\u3066\u8868\u793A\u3055\u308C\u307E\u3059\u3002\u3053\u308C\u3092\u30B7\u30FC\u30F3\u306B\u914D\u7F6E\u3057\u3066\u3001\u305D\u306E\u69CB\u9020\u3068\u30E1\u30BF\u30C7\u30FC\u30BF\u3092\u78BA\u8A8D\u3067\u304D\u307E\u3059\u3002\n<b>\u30D2\u30F3\u30C8:</b>
+      \u30E1\u30BF\u30C7\u30FC\u30BF\u306F\u3001\u30B9\u30AF\u30EA\u30D7\u30C8\u3067\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u691C\u7D22\u3057\u305F\u308A\u30AB\u30C6\u30B4\u30EA\u5316\u3057\u305F\u308A\u3059\u308B\u305F\u3081\u306B\u4F7F\u7528\u3067\u304D\u307E\u3059\u3002"
+--- !u!114 &7737582888052309926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews:
+    - m_SelectorType: 1
+      m_ViewType:
+        m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_OpenAndFocus: 1
+      m_EditorWindowType:
+        m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_AlternateEditorWindowTypes:
+        m_Items: []
+      m_MaskType: 0
+      m_MaskSizeModifier: 0
+      m_UnmaskedControls:
+      - m_SelectorMode: 5
+        m_SelectorMatchType: 2
+        m_GUIContent:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+          m_TextWithWhitespace: 
+        m_ControlName: 
+        m_PropertyPath: 
+        m_TargetType:
+          m_TypeName: 
+        m_GUIStyleName: 
+        m_ObjectReference:
+          m_SceneObjectReference:
+            m_SceneGuid: 
+            m_GameObjectGuid: 
+            m_SerializedComponentType:
+              m_TypeName: 
+            m_ComponentIndex: 0
+            m_AssetObject: {fileID: 0}
+            m_Prefab: {fileID: 0}
+          m_FutureObjectReference: {fileID: 0}
+        m_VisualElementClassName: 
+        m_VisualElementName: 
+        m_VisualElementTypeName: UnityEditor.PixyzPlugin4Unity.Toolbox.ToolbarImportDropdown
+    MaskPreset: {fileID: 11400000, guid: 2d49d3d568a2a4cd1a87421b0074151e, type: 2}
+  Text:
+    m_Untranslated: "\u30C4\u30FC\u30EB\u30AD\u30C3\u30C8\u304C\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3055\u308C\u305F\u306E\u3067\u3001<b>Unity
+      Asset Transformer Toolbar</b> \u3092\u4F7F\u7528\u3057\u3066 CAD \u30D5\u30A1\u30A4\u30EB\u306E\u30A4\u30F3\u30DD\u30FC\u30C8\u3092\u958B\u59CB\u3067\u304D\u307E\u3059\u3002\u3053\u306E\u30D7\u30ED\u30BB\u30B9\u306B\u3088\u308A\u3001\u30A4\u30F3\u30DD\u30FC\u30C8\u30D1\u30A4\u30D7\u30E9\u30A4\u30F3\u304C\u30BB\u30C3\u30C8\u30A2\u30C3\u30D7\u3055\u308C\u3001\u8A2D\u5B9A\u3092\u4FDD\u5B58\u3059\u308B
+      Import ScriptableObject \u304C\u4F5C\u6210\u3055\u308C\u307E\u3059\u3002\n<b>\u6CE8:</b>
+      Import ScriptableObject \u306F\u30E2\u30C7\u30EB\u81EA\u4F53\u3067\u306F\u306A\u304F\u3001\u518D\u5229\u7528\u53EF\u80FD\u306A\u8A2D\u5B9A\u30B3\u30F3\u30C6\u30CA\u3067\u3059\u3002"
+--- !u!114 &8394060241705376942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 1
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 32900000, guid: 113fc3ccc3eaf6e4cbda018a0fe1749a, type: 3}
+    m_Url: 
+    m_AutoStart: 1
+    m_Loop: 1

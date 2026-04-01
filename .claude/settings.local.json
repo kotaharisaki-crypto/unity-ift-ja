@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version)",
+      "Bash(git config:*)",
+      "Bash(powershell:*)",
+      "Bash(dir:*)",
+      "Bash(more:*)",
+      "Bash(xargs -I{} sh -c 'size=$\\(wc -c < \"\"{}\"\" 2>/dev/null\\); if [ \"\"$size\"\" -gt 52428800 ]; then echo \"\"$size {}\"\"; fi')",
+      "Bash(ls:*)",
+      "Bash(git reset:*)",
+      "Bash(git update-ref:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

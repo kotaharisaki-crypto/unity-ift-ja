@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0885f594ab85594caa28e1a96cbe0d8, type: 3}
+  m_Name: WelcomePage
+  m_EditorClassIdentifier: Unity.Tutorials.Core.Editor::Unity.Tutorials.Core.Editor.TutorialWelcomePage
+  m_HeaderContent:
+    m_ContentType: 0
+    m_Image: {fileID: 2800000, guid: e59d42a203d53714399ce020a93569f6, type: 3}
+    m_VideoClip: {fileID: 0}
+    m_Url: 
+    m_AutoStart: 1
+    m_Loop: 1
+  m_WindowTitle:
+    m_Untranslated: "\u30A4\u30F3\u30C0\u30B9\u30C8\u30EA\u30FC\u30FB\u30D5\u30A1\u30F3\u30C0\u30E1\u30F3\u30BF\u30EB\u30BA"
+  m_Title:
+    m_Untranslated: "CAD\u306B\u547D\u3092\u5439\u304D\u8FBC\u3080\uFF1A\u30A4\u30F3\u30DD\u30FC\u30C8\u304B\u3089\u30A4\u30F3\u30BF\u30E9\u30AF\u30B7\u30E7\u30F3\u307E\u3067"
+  m_Description:
+    m_Untranslated: "\u3053\u306E\u30A8\u30C7\u30A3\u30BF\u30FC\u5185\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u3067\u306F\u3001CAD\u30E2\u30C7\u30EB\u3092Unity\u306B\u53D6\u308A\u8FBC\u307F\u3001\u30A4\u30F3\u30BF\u30E9\u30AF\u30C6\u30A3\u30D6\u3067\u6700\u9069\u5316\u3055\u308C\u305F\u30C7\u30B8\u30BF\u30EB\u30A2\u30BB\u30C3\u30C8\u306B\u5909\u3048\u308B\u65B9\u6CD5\u3092\u5B66\u3073\u307E\u3059\u3002\\n\\n<b>Unity
+      Asset Transformer Toolkit</b>\u3092\u4F7F\u7528\u3057\u3066\u3001CAD\u30C7\u30FC\u30BF\u306E\u30A4\u30F3\u30DD\u30FC\u30C8\u3068\u8A2D\u5B9A\u3001\u30D1\u30D5\u30A9\u30FC\u30DE\u30F3\u30B9\u306E\u305F\u3081\u306E\u30B8\u30AA\u30E1\u30C8\u30EA\u306E\u5206\u6790\u3068\u6700\u9069\u5316\u3001\u30EB\u30FC\u30EB\u30BB\u30C3\u30C8\u306B\u3088\u308B\u7E70\u308A\u8FD4\u3057\u306E\u51E6\u7406\u306E\u81EA\u52D5\u5316\u3001\u304A\u3088\u3073\u30A4\u30F3\u30BF\u30E9\u30AF\u30C6\u30A3\u30D6\u306A\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u306E\u69CB\u7BC9\u3092\u884C\u3044\u307E\u3059\u3002\\n\\n\u6700\u5F8C\u306B\u306F\u3001UI\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB\u3092\u30E2\u30C7\u30EB\u306B\u63A5\u7D9A\u3057\u3001\u9759\u7684\u306ACAD\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u3001\u30B7\u30DF\u30E5\u30EC\u30FC\u30B7\u30E7\u30F3\u3001\u8996\u899A\u5316\u3001\u307E\u305F\u306F\u30D7\u30ED\u30C8\u30BF\u30A4\u30D4\u30F3\u30B0\u306E\u6E96\u5099\u304C\u6574\u3063\u305F\u3001\u30EC\u30B9\u30DD\u30F3\u30B7\u30D6\u3067\u30B7\u30FC\u30F3\u306B\u7D71\u5408\u3055\u308C\u305F\u30ED\u30DC\u30C3\u30C8\u306B\u5909\u3048\u307E\u3059\u3002\\n\\n<b>\u63A8\u5968\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0:</b>
+      Windows\\n<b>\u6CE8:</b> <b>Asset Transformer Toolkit</b>\u306B\u306FUnity
+      Industry\u30E9\u30A4\u30BB\u30F3\u30B9\u304C\u5FC5\u8981\u3067\u3059\u3002"
+  m_MaskEditor: 1
+  m_Buttons:
+  - Text:
+      m_Untranslated: "\u9589\u3058\u308B"
+    Tooltip:
+      m_Untranslated: 
+    OnClick:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000}
+          m_TargetAssemblyTypeName: Unity.Tutorials.Core.Editor.TutorialWelcomePage,
+            Unity.Tutorials.Core.Editor
+          m_MethodName: CloseCurrentModalDialog
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+  - Text:
+      m_Untranslated: "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u3078"
+    Tooltip:
+      m_Untranslated: 
+    OnClick:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: d743b3f78e95b40bb898be1d1c918b67, type: 2}
+          m_TargetAssemblyTypeName: Unity.Tutorials.Editor.TutorialContainer, Unity.Tutorials.Editor
+          m_MethodName: HighlightTutorialWindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+        - m_Target: {fileID: 11400000}
+          m_TargetAssemblyTypeName: Unity.Tutorials.Editor.TutorialWelcomePage, Unity.Tutorials.Editor
+          m_MethodName: CloseCurrentModalDialog
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
